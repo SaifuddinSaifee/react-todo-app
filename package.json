@@ -17,6 +17,11 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "gitadd": "git add .",
+    "gitsts": "git status",
+    "gitcom": "git commit",
+    "gitpush": "git push",
+    "gitall": "npm-run-all --serial gitadd gitsts gitcom gitsts gitpush"
   }
 }

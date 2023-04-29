@@ -9,8 +9,9 @@ body {
     width: 600px;
     margin: 30px auto;
     border: 1px solid #ddd;
-    border-radius: 2px;
+    border-radius: 1rem;
     position: relative;
+
 }
 
 .todolist h1 {
